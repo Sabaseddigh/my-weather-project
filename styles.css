@@ -4,6 +4,11 @@ body {
   padding: 30px 30px 0px 90px;
   padding-right: 40%;
 }
+
+li:first-letter {
+    text-transform: capitalize;
+  }
+
 .border {
   margin: 0 auto;
   display: block;
