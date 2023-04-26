@@ -12,7 +12,7 @@ body {
 }
 
 
-p4 {
+.p4 {
   position: absolute;
   text-align: left;
   display: block;
@@ -22,7 +22,7 @@ p4 {
   color: dimgray;
 }
 
-p2 {
+.p2 {
   font-size: 12px;
   padding: 0px;
 }
