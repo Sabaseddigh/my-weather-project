@@ -49,7 +49,7 @@ a {
   position: absolute;
 }
 .card {
-  display: block;
+  
   padding: 20px;
   color: darkgray;
   border-width: 5px;
@@ -66,8 +66,4 @@ a {
 }
 .temperature{
   font-size: 30px;
-}
-.position{
-  position: fixed;
-  display: block;
 }
