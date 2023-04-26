@@ -14,7 +14,7 @@ body {
 
 .p4 {
   position: absolute;
-  text-align:end;
+  text-align:left;
   display: block;
   padding-top: 0px;
   margin-top: -15px;
@@ -66,4 +66,8 @@ a {
 }
 .temperature{
   font-size: 30px;
+}
+.position{
+  position: fixed;
+  display: block;
 }
