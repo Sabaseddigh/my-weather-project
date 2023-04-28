@@ -27,7 +27,9 @@ li:first-letter {
   color: dimgray;
 
 }
-
+.p3{
+padding-top: 10px;
+}
 .p2 {
   font-size: 12px;
   padding: 0px;
@@ -36,9 +38,9 @@ li:first-letter {
 
 .card-title {
   color: #5a6275;
-  font-size: 48px;
+  font-size: 46px;
   font-family: "Bebas Neue", cursive;
-  text-shadow: 0px 2px 3px #b1abab;
+  text-shadow: 0px 1px 3px #b1abab;
 }
 .city {
   color: #5a6275;
