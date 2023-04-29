@@ -17,16 +17,7 @@ li:first-letter {
 }
 
 
-.p4 {
-  position: absolute;
-  text-align:top;
-  display: block;
-  padding-top: 0px;
-  margin-top: -15px;
-  font-size: 12px;
-  color: dimgray;
 
-}
 .p3{
 padding-top: 10px;
 }
@@ -64,9 +55,7 @@ padding-top: 10px;
   border-width: 5px;
   margin: 15px auto;
 }
-.sisi {
-  font-size: 36px;
-}
+
 .card-body{
   margin: 30 auto;
  
@@ -84,7 +73,7 @@ padding-top: 10px;
 
 .col {
   display: table-cell;
-  width: 1%; /* or whatever width you need */
+  width: 1%; 
 }
 
 
@@ -103,4 +92,11 @@ padding-top: 10px;
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.weather-forecast-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  text-align: center;
 }
