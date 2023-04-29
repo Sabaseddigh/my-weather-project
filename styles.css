@@ -97,6 +97,6 @@ padding-top: 10px;
 .weather-forecast-row {
   display: flex;
   justify-content: space-between;
-  font-size: 18px;
+  font-size: 17px;
   text-align: center;
 }
