@@ -1,4 +1,6 @@
 
+function formatDate(timestamp){
+  let date = new Date(timestamp);
   let hours = date.getHours();
   if (hours < 10) {
     hours = `0${hours}`;
@@ -20,9 +22,26 @@
   ];
   let day = days[dayIndex];
 
-  return `${day} ${hours}:${minutes}`;
+return `${day} ${hours}:${minutes}`;
 }
 
+
+function formatDay(timestamp) {
+let date = new Date(timestamp * 1000);
+let day = date.getDay();
+let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+return days[day];
+}
+
+function displayForecast(response) {
+  let forecast = response.data.daily;
+
+  let forecastElement = document.querySelector("#forecast");
+
+
+let forecastHTML = `<div class="row weather-forecast-row">`;
+forecast.forEach(function (forecastDay, index) {
   if (index < 5) {
     forecastHTML =
       forecastHTML +
